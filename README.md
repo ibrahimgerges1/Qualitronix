@@ -49,6 +49,12 @@ Our enhanced YOLOv8 + CoordAtt + BiFPN model was evaluated on three public bench
 
 `Missing Hole` · `Short Circuit` · `Spur` · `Open Circuit` · `Mouse Bite` · `Spurious Copper`
 
+### 🖼️ Model Output & Heatmap Visualization
+
+![Model Output](docs/screenshots/model_output.png)
+
+> **Left:** YOLOv8 defect localization with bounding boxes and confidence scores. **Right:** Eigen-CAM heatmap showing the model's attention regions.
+
 ---
 
 ## 🏗️ System Architecture
@@ -90,7 +96,7 @@ Our enhanced YOLOv8 + CoordAtt + BiFPN model was evaluated on three public bench
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Qualitronix.git
+git clone https://github.com/ibrahimgerges1/Qualitronix.git
 cd Qualitronix
 ```
 
@@ -160,12 +166,14 @@ The Flutter mobile application provides real-time PCB inspection directly from a
 - 📋 **Review** detection history and export reports
 - 🔔 **Alerts** for critical defect thresholds
 
+![Mobile App UI](docs/screenshots/mobile_app.png)
+
 ### Tech Stack — Mobile
 
 | Layer | Technology |
 |---|---|
 | Framework | Flutter + Dart |
-| State Management | *(your choice — e.g., Provider / Riverpod / BLoC)* |
+| State Management | Provider / Riverpod / BLoC |
 | Database | Firebase |
 | Image Storage | Cloudinary |
 | API | FastAPI (REST) |
@@ -181,6 +189,8 @@ The web platform is designed for production-floor analysts and quality managers:
 - 🗂️ **Historical reports** and defect trend tracking
 - 👁️ **Eigen-CAM visualizations** for explainability
 - 📤 **Export** reports in PDF/CSV
+
+![Web Platform](docs/screenshots/web_platform.png)
 
 ---
 
@@ -216,7 +226,12 @@ Qualitronix/
 │   ├── train.py
 │   ├── model_architecture/   # CoordAtt + BiFPN implementation
 │   └── evaluate.py
-├── docs/                     # Project documentation PDF
+├── docs/
+│   ├── screenshots/          # README images
+│   │   ├── model_output.png
+│   │   ├── mobile_app.png
+│   │   └── web_platform.png
+│   └── Qualitronix_Documentation.pdf
 ├── .gitignore
 └── README.md
 ```
