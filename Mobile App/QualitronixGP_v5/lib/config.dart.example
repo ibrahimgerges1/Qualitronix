@@ -1,0 +1,11 @@
+// Copy this file to config.dart and fill in your own values.
+// config.dart is listed in .gitignore and will never be committed.
+
+class AppConfig {
+  // Your FastAPI backend URL
+  static const String baseUrl = "http://YOUR_SERVER_IP/batch-predict";
+
+  // Your Cloudinary credentials (https://cloudinary.com/console)
+  static const String cloudinaryCloudName = 'YOUR_CLOUD_NAME';
+  static const String cloudinaryUploadPreset = 'YOUR_UPLOAD_PRESET';
+}

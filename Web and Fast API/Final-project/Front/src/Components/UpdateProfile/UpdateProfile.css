@@ -1,0 +1,35 @@
+.text-gold {
+  color: #ffca28;
+}
+
+.text-green {
+  color: #128b67;
+}
+
+.bgg {
+  background-color: #ffca28;
+}
+
+input {
+  width: 100%;
+}
+
+input {
+  background: transparent;
+  box-shadow: none;
+}
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px #000 inset !important;
+  -webkit-text-fill-color: #fff !important;
+}
+
+input:autofill {
+  box-shadow: 0 0 0px 1000px #000 inset !important;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: inherit; /* Or a specific color if you want */
+}

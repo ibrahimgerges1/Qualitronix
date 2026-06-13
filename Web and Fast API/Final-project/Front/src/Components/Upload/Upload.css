@@ -1,0 +1,31 @@
+.upload-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-content {
+  background-color: black;
+  color: white;
+  padding: 3.5rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
+}
+
+.button-bg {
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.button-bg:hover {
+  background-color: #e2e2e2;
+}

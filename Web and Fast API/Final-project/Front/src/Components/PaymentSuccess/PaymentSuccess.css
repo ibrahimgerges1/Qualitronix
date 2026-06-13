@@ -1,0 +1,30 @@
+.bgc {
+  background-color: #0f0f0f;
+}
+
+.bg-all {
+  background: linear-gradient(
+    to bottom right,
+    #009669,
+    #009669,
+    #997918,
+    #997918
+  );
+}
+
+.bg-green {
+  background-color: #009669;
+}
+
+.text-gold {
+  color: #eda10d;
+}
+
+.text-green {
+  color: #009669;
+}
+.slogan {
+  background: Linear-gradient(to right, #fca326, #f9f9f9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,10 @@
+include: package:lints/recommended.yaml
+
+analyzer:
+  exclude:
+    - '**/*.g.dart'
+
+linter:
+  rules:
+    - avoid_print: true
+    - unnecessary_new: false

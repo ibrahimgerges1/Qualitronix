@@ -1,0 +1,13 @@
+.color-gold {
+  color: #eda10d;
+}
+
+.slogan {
+  background: Linear-gradient(to right, #fca326, #f9f9f9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.BG-Gradient {
+  background: linear-gradient(to top, #003021f0, #009669d0);
+}

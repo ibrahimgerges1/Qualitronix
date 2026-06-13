@@ -1,0 +1,38 @@
+{
+  "name": "qulitronix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npm i",
+    "start": "node .",
+    "start-watch": "nodemon ."
+  },
+  "engines": {
+    "node": "20.16.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.8.1",
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^1.41.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "form-data": "^4.0.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.13.1",
+    "mongoose": "^8.11.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.16",
+    "stripe": "^17.6.0",
+    "uuid": "^11.0.5"
+  }
+}

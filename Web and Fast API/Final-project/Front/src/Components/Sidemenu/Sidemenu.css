@@ -1,0 +1,42 @@
+.Menu_Background {
+  background-color: #1e1e1e;
+  height: 100vh;
+}
+
+.text_color {
+  color: #d9d9d9;
+}
+
+.active-button {
+  background-color: #997918;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav-link {
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+}
+
+.nav-link:hover {
+  background-color: #009669;
+  border-radius: 5px;
+}
+
+.logout-section {
+  margin-top: auto;
+}
+
+i {
+  width: 20px;
+}
+
+a{ 
+    text-decoration: none; 
+}

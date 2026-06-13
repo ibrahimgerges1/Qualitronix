@@ -1,0 +1,9 @@
+.nav-background {
+  background: linear-gradient(to right, #997918, #997918, #997918, #009669);
+}
+
+.current-Page {
+  background: Linear-gradient(to right, #676767, #232323, #232323);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

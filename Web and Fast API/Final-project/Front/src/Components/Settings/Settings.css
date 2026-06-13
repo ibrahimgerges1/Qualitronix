@@ -1,0 +1,10 @@
+.bgi {
+  background-image: url(https://imgur.com/XJUGC3H.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.bgf {
+  backdrop-filter: blur(5px);
+}
+
