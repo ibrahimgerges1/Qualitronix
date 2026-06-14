@@ -292,6 +292,25 @@ This project is released under the [MIT License](LICENSE).
 
 ---
 
+## 🙋 My Contribution — Ibrahim Gerges
+
+As one of the core researchers and AI engineers on this project, my responsibilities covered the full model development lifecycle and academic writing:
+
+### 🧠 AI Model Development
+- **Designed and implemented** the enhanced YOLOv8 architecture from scratch, integrating **Coordinate Attention (CoordAtt)** and **BiFPN** modules using **PyTorch**
+- **Conducted all training experiments** across three benchmark datasets (TDD-NET, Deep-PCB, PKU-Market-PCB) using **Google Colab** and a **local GPU** setup
+- **Evaluated model performance** including mAP50/mAP50:95 metrics, confusion matrices, ROC curves, and comparison against baseline YOLOv8m
+- Iterated on hyperparameter tuning and architecture modifications to achieve **99.1% mAP50** on TDD-NET
+
+### 📄 Research & Publications
+- **Co-authored two academic papers** submitted to AMLTA'25 (conference) and Springer IJIT (journal)
+- **Wrote 30–40% of both papers**, focusing on the methodology, model architecture, and experimental results sections
+- Prepared all **results tables, figures, and analysis** for the experiments chapter
+- Authored the papers using **LaTeX on Overleaf**
+  
+
 <div align="center">
   <sub>Built with ❤️ at CIC Cairo · School of Computer Science · 2024–2025</sub>
 </div>
+
+
