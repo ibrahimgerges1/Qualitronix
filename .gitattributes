@@ -1,0 +1,6 @@
+# Exclude Dart/Flutter files from language stats
+*.dart linguist-detectable=false
+
+# Or mark Python files as the primary language
+*.py linguist-detectable=true
+*.dart linguist-vendored=true
