@@ -51,7 +51,7 @@ Our enhanced YOLOv8 + CoordAtt + BiFPN model was evaluated on three public bench
 
 ### 🖼️ Model Output & Heatmap Visualization
 
-![Model Output](docs/screenshots/model_output.png)
+![Model Output](model_output.png)
 
 > **Left:** YOLOv8 defect localization with bounding boxes and confidence scores. **Right:** Eigen-CAM heatmap showing the model's attention regions.
 
@@ -166,7 +166,7 @@ The Flutter mobile application provides real-time PCB inspection directly from a
 - 📋 **Review** detection history and export reports
 - 🔔 **Alerts** for critical defect thresholds
 
-![Mobile App UI](docs/screenshots/mobile_app.png)
+![Mobile App UI](mobile_app.png)
 
 ### Tech Stack — Mobile
 
@@ -190,7 +190,7 @@ The web platform is designed for production-floor analysts and quality managers:
 - 👁️ **Eigen-CAM visualizations** for explainability
 - 📤 **Export** reports in PDF/CSV
 
-![Web Platform](docs/screenshots/web_platform.png)
+![Web Platform](web_platfrom.png)
 
 ---
 
